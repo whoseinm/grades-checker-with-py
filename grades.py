@@ -1,0 +1,11 @@
+answer = input("Daha bir iştirakçı daxil edilsin?")
+while answer == "bəli":
+    name = input("Ad daxil edin")
+    surname = input("Soyad daxil edin")
+    grades = input("Qiymətləri daxil edin")
+    print("Ad Soyad: " + name + " " + surname + ".")
+    print("Beşlərin sayı: " + str(grades.count("5")) + ".")
+    print("Dördlərin sayı: " + str(grades.count("4")) + ".")
+    print("Üçlərin sayı: " + str(grades.count("3")) + ".")
+    print("İkilərin sayı: " + str(grades.count("2")) + ".")
+    answer = input("Daha bir iştirakçı daxil edilsin?")
