@@ -1,0 +1,5 @@
+name = input("Ad daxil edin")
+surname = input("Soyad daxil edin")
+age = int(input("Şagirdin yaşını daxil edin"))
+class_number = int(input("Şagird neçənci sinfə daxil edilir"))
+print(name + " " + surname + " " + str(age) + " yaş " + str(class_number) + " sinif")
